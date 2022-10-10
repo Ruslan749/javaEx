@@ -2,7 +2,7 @@ package lab_1;
 
 import java.util.Scanner;
 
-public class exe13 {
+public class example21_20 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("число a:");

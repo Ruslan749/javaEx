@@ -2,7 +2,7 @@ package lab_1;
 
 import java.util.Scanner;
 
-public class exe1 {
+public class example21_08 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("name:");

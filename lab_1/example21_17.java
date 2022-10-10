@@ -2,10 +2,7 @@ package lab_1;
 
 import java.util.Scanner;
 
-//        Напишите программу, в которой Пользователь вводит два числа, а
-//        программой вычисляется и отображается сумма и разность этих чисел.
-
-public class exe10 {
+public class example21_17 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("number a:");
