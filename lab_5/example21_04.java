@@ -15,18 +15,13 @@
  */
 
 package lab_5;
-
-
-
 public class example21_04 {
     public static void main(String[] args) {
 
         Example exe_1 = new Example(12,'A');
         Example exe_2 = new Example(65.1267);
-
     }
 }
-
 class Example {
     private char ch1;
     private int int1;
@@ -34,7 +29,6 @@ class Example {
         this.ch1 = a;
         this.int1 = i;
         System.out.printf("ch: %s int: %s\n", ch1,int1);
-
     }
     Example(double d){
         String[] a = String.valueOf(d).split("[.]");
@@ -44,5 +38,4 @@ class Example {
         System.out.printf("%s %s",ch,_frac);
 
     }
-
 }

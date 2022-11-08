@@ -7,7 +7,6 @@
 
 package lab_5;
 
-
 public class example21_03 {
     public static void main(String[] args) {
         Constructor constructor_1 = new Constructor();
@@ -16,11 +15,8 @@ public class example21_03 {
         int num2 = 6;
         Constructor constructor_3 = new Constructor(num1,num2);
     }
-
 }
-
 class Constructor{
-
 
     Constructor(){
       System.out.println("1 экземпляр конструктора");

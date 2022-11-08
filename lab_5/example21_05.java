@@ -14,9 +14,6 @@
 метод, позволяющий проверить значение поля.
  */
 package lab_5;
-
-
-
 public class example21_05 {
     public static void main(String[] args) {
     Exemple exe = new Exemple(5);
@@ -26,7 +23,6 @@ public class example21_05 {
     System.out.println("число = " + exe.PrintInt());
     }
 }
-
 class Exemple{
     private int num;
 
@@ -41,7 +37,6 @@ class Exemple{
 
         return num;
     }
-
     public void getNum() {
         System.out.println(" метод без аргументов");
     }

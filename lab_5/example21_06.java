@@ -23,7 +23,6 @@ public class example21_06 {
         num.PrintInt();
     }
 }
-
 class Numbers {
     int numMax;
     int numMin;
@@ -43,9 +42,7 @@ class Numbers {
     Numbers(int num1, int num2){
       this.getNum(num1,num2);
     }
-
     public void PrintInt(){
         System.out.println("максимально значение: " + this.numMax + " " + "минимальное значение: " + this.numMin);
     }
-
 }
