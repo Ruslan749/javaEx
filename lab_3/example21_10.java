@@ -15,8 +15,6 @@ public class example21_10 {
         Arrays.sort(arr);
         Collections.reverse(Arrays.asList(arr));
 
-
-
         System.out.print(Arrays.toString(arr));
     }
 }

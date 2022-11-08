@@ -1,7 +1,5 @@
 package lab_3;
-
 import java.util.Scanner;
-
 public class example21_06 {
     public static void main(String[] args) {
         String firstText = "Size of Array: ";
@@ -10,14 +8,12 @@ public class example21_06 {
         System.out.println(firstText);
 
         if(scanner.hasNextInt()) {
-
             int n = Integer.parseInt(scanner.next());
             if (n <= 0){
                 System.out.println("This value is not enough");
                 System.exit(0);
             }
             int[] arrDigits = new int[n];
-
             int k = 0;                                  // index of a number which is equal i % 5 == 2
             double valSquare = 2;                       // power of two
             double p = (double) n;                      // length of an array in a double reduction

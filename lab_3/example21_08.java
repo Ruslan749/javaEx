@@ -16,7 +16,6 @@ public class example21_08 {
             count++;
             ch++;
         }
-
         // вывод в консоль
         for (char aChar : chars) {
             System.out.println(aChar);

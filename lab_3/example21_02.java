@@ -1,13 +1,10 @@
 package lab_3;
-
 import java.util.Scanner;
-
 public class example21_02 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("введите день недели:");
         String string = in.nextLine();
-
 //        switch (string) {
 //            case "понедельник" -> System.out.print(1);
 //            case "вторник" -> System.out.print(2);
@@ -18,7 +15,6 @@ public class example21_02 {
 //            case "воскресенье" -> System.out.print(7);
 //            default -> System.out.print("такого дня недели нет");
 //        }
-
 
        if (string.equals("понедельник") ){
            System.out.print(1);

@@ -1,6 +1,5 @@
 package lab_3;
 
-
 public class example21_07 {
     public static void main(String[] args) {
         int arrNum = 10;

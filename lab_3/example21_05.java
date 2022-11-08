@@ -1,7 +1,5 @@
 package lab_3;
-
 import java.util.Scanner;
-
 public class example21_05 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -9,9 +7,7 @@ public class example21_05 {
         int num_1 = in.nextInt();
         System.out.println(" введите 2 число");
         int num_2 = in.nextInt();
-
         int i = 0;
-
 //        for (int i = 0; i <= num_1; i++){
 //            for (int j = 0; j <= num_2; j++){
 //                int c = j + i;
@@ -37,7 +33,6 @@ public class example21_05 {
 //            }
 //            i++;
 //        }
-
         do {
             int j = 0;
             do {

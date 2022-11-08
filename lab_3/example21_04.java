@@ -7,7 +7,6 @@ public class example21_04 {
         int start = in.nextInt();
         System.out.println(" введите 2 число");
         int finish = in.nextInt();
-
         int i,b;
 
         if (start > finish){
@@ -15,17 +14,14 @@ public class example21_04 {
         }else {
             i = start;
         }
-
         if (start > finish){
             b = start;
         }else {
             b = finish;
         }
-
         for (; i <= b; i++){
             System.out.println(i);
         }
-
         while (i<=b){
             System.out.println(i);
             i++;
