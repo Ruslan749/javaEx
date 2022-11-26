@@ -14,7 +14,6 @@
  */
 
 package lab_6;
-
 public class example21_01 {
     public static void main(String[] args) {
         Box box = new Box();
@@ -26,7 +25,6 @@ public class example21_01 {
         box.resault(arr_2);
     }
 }
-
 class Box{
     char ch;
     String str;

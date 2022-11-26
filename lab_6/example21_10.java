@@ -36,6 +36,4 @@ public class example21_10 {
             System.out.println("MaxiMin[min] = " + MaxMin[1]);
         }
     }
-
-
 }

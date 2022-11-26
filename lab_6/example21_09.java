@@ -4,8 +4,6 @@
 меняются местами: первый — с последн и м , второй — с предпоследним и так далее.
  */
 package lab_6;
-
-
 public class example21_09 {
     public static void main(String[] args) {
         Box box = new Box();

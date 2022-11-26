@@ -12,7 +12,6 @@ public class example21_07 {
                 'т', 'у', 'ф', 'х', 'ц', 'ч', 'ш', 'щ', 'ъ', 'ы', 'ь', 'э', 'ю', 'я'};
         Example7.convertCharArray(alphabet);
         Example7.viewArray();
-
     }
 
     private static class Example7 {

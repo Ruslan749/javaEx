@@ -15,8 +15,6 @@ public class example21_05 {
         System.out.println(sum);
         int sum_2 = box.SumRec(num);
         System.out.println(sum_2);
-
-
     }
 
     private static class SummNum {
@@ -35,6 +33,5 @@ public class example21_05 {
             res = SumRec(n-1)+n*n;
             return res;
         }
-
     }
 }

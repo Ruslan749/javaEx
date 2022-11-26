@@ -8,8 +8,6 @@
  */
 package lab_6;
 
-import java.util.Arrays;
-
 public class example21_03 {
     private static class Example2{
         private static void calcMax(int ... array){
