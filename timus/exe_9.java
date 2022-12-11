@@ -1,4 +1,4 @@
-package timus;
+
 /*
 Задача 1264. Трудовые будни
 Исходные данные:
@@ -6,8 +6,8 @@ package timus;
 Результат:
 Выведите число секунд, требуемых Петечкину на написание функции.
  */
+package timus;
 import java.util.*;
-
 public class exe_9 {
     static Scanner in = new Scanner(System.in);
     public static void main(String[] args) {

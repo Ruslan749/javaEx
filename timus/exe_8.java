@@ -1,4 +1,4 @@
-package timus;
+
 /*
 задача: 2001. Математики и ягоды
 Исходные данные:
@@ -8,8 +8,8 @@ package timus;
 В единственной строке выведите пару целых чисел через пробел — массу ягод, собранных, соответственно,
 первым и вторым математиком.
  */
+package timus;
 import java.util.*;
-
 public class exe_8 {
     static Scanner in = new Scanner(System.in);
 

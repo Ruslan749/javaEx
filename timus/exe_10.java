@@ -13,7 +13,6 @@ i-й минуты. Можно считать, что наблюдения нач
  */
 
 package timus;
-
 import java.util.Scanner;
 
 public class exe_10 {

@@ -8,16 +8,9 @@
 квадратный корень не менее чем с четырьмя знаками после десятичной точки.
  */
 
-
-
 package timus;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Stack;
-import java.util.StringTokenizer;
-
+import java.io.*;
+import java.util.*;
 public class exe_6 {
     static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     public static void main(String[] args) throws IOException {

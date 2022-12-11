@@ -1,19 +1,20 @@
+/*
+Стоимость покупки
+Пирожок в столовой стоит a рублей и b копеек. Определите, сколько рублей и копеек нужно заплатить за n пирожков.
+Программа получает на вход три числа: a, b, n.
+Программа должна вывести два числа: стоимость покупки в рублях и копейках.
+ */
 package timus;
-
-import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class exe_16 {
-    static Scanner in = new Scanner(System.in);
-    static PrintWriter out = new PrintWriter(System.out);
     public static void main(String[] args) {
-        int num = in.nextInt();
-        int [] arr = new int[num];
+        Scanner in = new Scanner(System.in);
+        int a = in.nextInt();
+        int b = in.nextInt();
+        int c = in.nextInt();
+        int r = a*b;
 
-        for (int i =0; i< arr.length; i++){
-            arr[i] = in.nextInt();
-            out.print(arr[i]);
-        }
-    out.flush();
+        System.out.print((a*c)+(b*c)/100 + " " + (b*c)%100);
     }
 }

@@ -9,8 +9,7 @@
 
 package timus;
 import java.io.PrintWriter;
-import java.util.Locale;
-import java.util.Scanner;
+import java.util.*;
 public class exe_7 {
     static Scanner input = new Scanner(System.in);
     static PrintWriter out = new PrintWriter(System.out);
